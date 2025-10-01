@@ -1,0 +1,19 @@
+# Created by Octave 10.1.0, Mon Sep 29 22:58:31 2025 UTC <unknown@Spakeer>
+# name: anomaly_indices
+# type: lazy_index
+# name: index_value
+# type: matrix
+# rows: 1
+# columns: 5
+ 221 513 579 608 711
+
+
+
+
+# name: anomaly_values
+# type: matrix
+# rows: 1
+# columns: 5
+ 164.49728578948859 138.34759176216437 198.83449250454925 245.82877033128472 192.41499905179373
+
+
