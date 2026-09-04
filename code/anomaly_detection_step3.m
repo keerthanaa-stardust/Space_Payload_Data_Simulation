@@ -7,8 +7,12 @@ pkg load statistics   % ensure statistics package is loaded
 load('../data/transmission_data.mat');  % loads t, noisy_data, delayed_data
 
 % --- Step 1: Calculate statistics on delayed data ---
-mu = mean(delayed_data);
-sigma = std(delayed_data);
+baseline_data = delayed_data(21:200);
+
+mu = mean(baseline_data);
+sigma = std(baseline_data);
+
+threshold = mu + 3*sigma;
 
 % --- Step 2: Detect anomalies (values > mean + 3*std) ---
 threshold = mu + 3*sigma;
