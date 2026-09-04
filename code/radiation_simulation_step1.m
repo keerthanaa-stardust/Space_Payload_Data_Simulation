@@ -7,7 +7,7 @@ N = 1000;
 % Time axis (seconds)
 t = linspace(0, 100, N);
 
-% Base radiation level (mean counts per second)
+% Base radiation level (mean counts per sample)
 base_level = 50;
 
 % Simulate random fluctuations using Poisson noise
